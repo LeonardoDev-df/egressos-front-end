@@ -1,0 +1,159 @@
+.home_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4em;
+}
+
+
+.buttom{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 200px;
+  width: 120%;
+}
+
+.buttomCheck{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 210px;
+  width: 80%;
+}
+
+.buttons{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #3A951A;
+  border: solid 2px;
+  border-radius: 5px;
+  height: 45px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.sidemain{
+  box-sizing: border-box;
+
+ 
+  width: 191px;
+  line-height: 0px;
+  height: 350px;
+  margin-left: -978px;
+  margin-top: 30px;
+  top: 626px;
+
+  background: #FFFFFF;
+
+}
+
+.sidebuttom{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 211px;
+  height: 40px;
+  background-color: #3A951A;
+  border: solid 2px;
+  border-radius: 5px;
+  height: 45px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.sideSelect{
+  width: 211px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.check{
+  font-family: 'Poppins' bold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 10px;
+  width: 285px;
+  height: 30px;
+  border-radius: 25px;
+  
+  margin-top: 60px;
+
+}
+
+.checkbox_round{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid black;
+    appearance: none;
+    
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.home_container h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.home_container h1 span {
+  color: #ffbb33;
+  padding: 0 0.2em;
+  background-color: #222;
+}
+
+.home_container p {
+  margin-bottom: 1.5em;
+  
+  width: 1000px;
+  height: 66px;
+  margin-left: 210px;
+  margin-top: 1px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ABA8A8;
+}
+
+.home_container img {
+  position: absolute;
+  width: 709px;
+  height: 193px;
+  left: 44px;
+  top: 177px;
+}
+
+.span{
+  position: absolute;
+  width: 379px;
+  height: 213px;
+  left: 484px;
+  top: 750px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #696868;
+
+
+}
+
+.graficos {
+  position: absolute;
+  width: 379px;
+  height: 213px;
+  left: 444px;
+  top: 650px;
+}
