@@ -112,9 +112,9 @@
 .home_container p {
   margin-bottom: 1.5em;
   
-  width: 1000px;
+  width: 100%;
   height: 66px;
-  margin-left: 210px;
+  margin-left: 130px;
   margin-top: 1px;
 
   font-family: 'Poppins';
@@ -126,11 +126,15 @@
   color: #ABA8A8;
 }
 
+.home{
+  width: 100%;
+}
+
 .home_container img {
   position: absolute;
   width: 709px;
   height: 193px;
-  left: 44px;
+  left: -34px;
   top: 177px;
 }
 
@@ -154,6 +158,6 @@
   position: absolute;
   width: 379px;
   height: 213px;
-  left: 444px;
+  left: 514px;
   top: 650px;
 }

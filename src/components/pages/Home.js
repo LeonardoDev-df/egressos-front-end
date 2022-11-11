@@ -3,20 +3,22 @@ import savings from '../../img/sisaemain.png'
 import grafics from '../../img/grafico.png'
 import Select from 'react-select'
 
-import LinkButton from '../layout/LinkButton'
 
 function Home() {
   const options = [
-    { value: 'chocolate', label: 'Chocolate' },
-    { value: 'strawberry', label: 'Strawberry' },
-    { value: 'vanilla', label: 'Vanilla' }
+    { value: 'ano', label: '2019' },
+    { value: 'strawberry', label: '2020' },
+    { value: 'vanilla', label: '2121' }
   ]
   return (
     <>
     <section className={styles.home_container}>
-      <img src={savings} alt="Savings" />
+      <div className={styles.home}>
+      <img  src={savings} alt="Savings" />
 
-      <div>
+      </div>
+     
+      <div className={styles.home}>
         <p>
         Seja bem-vindo ao SISAE, a plataforma de dados do Instituto Federal de Brasília. 
         O sistema foi concebido de forma que qualquer servidor, estudante ou cidadão possa 
