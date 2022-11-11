@@ -5,10 +5,25 @@ import Select from 'react-select'
 
 
 function Home() {
-  const options = [
+  const anos = [
     { value: 'ano', label: '2019' },
     { value: 'strawberry', label: '2020' },
     { value: 'vanilla', label: '2121' }
+  ]
+  const campus = [
+    { value: 'campus', label: 'Brasília' },
+    { value: 'strawberry', label: 'São Sebastião' },
+    { value: 'vanilla', label: 'Planaltina' }
+  ]
+  const eixo = [
+    { value: 'eixo', label: 'Administração' },
+    { value: 'strawberry', label: 'Eventos' },
+    { value: 'vanilla', label: 'Tecnologia' }
+  ]
+  const curso = [
+    { value: 'curso', label: 'Sistemas' },
+    { value: 'strawberry', label: 'Gestão' },
+    { value: 'vanilla', label: 'Agronegócio' }
   ]
   return (
     <>
@@ -73,16 +88,16 @@ function Home() {
         FILTROS
       </button>
       <div  className={styles.sideSelect}>
-        <Select options={options} placeholder="ANO" />
+        <Select options={anos} placeholder="ANO" />
       </div>
       <div className={styles.sideSelect}>
-        <Select  options={options} placeholder="CAMPUS" />
+        <Select  options={campus} placeholder="CAMPUS" />
       </div>
       <div className={styles.sideSelect}>
-        <Select options={options}  placeholder="EIXO TECNOLÓGICO" />
+        <Select options={eixo}  placeholder="EIXO TECNOLÓGICO" />
       </div>
       <div className={styles.sideSelect}>
-        <Select options={options} placeholder="CURSO" />
+        <Select options={curso} placeholder="CURSO" />
       </div >
       <button className={styles.sidebuttom}>
         SELEÇÕES
