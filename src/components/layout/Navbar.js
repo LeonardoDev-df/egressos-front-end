@@ -9,7 +9,7 @@ function Navbar() {
     <div className={styles.navbar}>
       <Container>
         <Link to="/">
-          <img src={logo} alt="Costs" />
+          <img src={logo} alt="Sisae" />
          
         </Link>
         <div className={styles.title}>
@@ -22,17 +22,17 @@ function Navbar() {
             <Link to="/">INÍCIO</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/projects">SOBRE</Link>
+            <Link to="/">SOBRE</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/company">CONTATO</Link>
+            <Link to="/">CONTATO</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/contact">AJUDA</Link>
+            <Link to="/">AJUDA</Link>
           </li>
           <li className={styles.item}>
             <div className={styles.login}>
-            <Link   to="/contact">LOGIN</Link>
+            <Link   to="/">LOGIN</Link>
             </div>   
           </li>
         </ul>
